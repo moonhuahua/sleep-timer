@@ -1,1 +1,2 @@
-* Chinesische Bezeichnung angepasst: Accessibility (soft) wird neutral als „Bedienungshilfe (Soft-Sperre)“ übersetzt.
+* Die vereinfachte chinesische Übersetzung für die Bedienungshilfe-(Soft)-Bildschirmsperre wurde überarbeitet.
+* Version 1.3.2.

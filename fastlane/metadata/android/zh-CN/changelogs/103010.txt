@@ -1,2 +1,2 @@
 * 新增简体中文界面。
-* “关屏”中新增“静音锁屏”显示项，底层调用 Android GLOBAL_ACTION_LOCK_SCREEN，不再模拟电源键。
+* “关屏”中的 Accessibility (soft) 已汉化为“无障碍（软锁屏）”，底层调用 Android GLOBAL_ACTION_LOCK_SCREEN。

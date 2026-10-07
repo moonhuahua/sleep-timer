@@ -1,1 +1,2 @@
-* Chinese wording adjusted: Accessibility (soft) is translated neutrally as "Accessibility (soft lock)".
+* Refined the Simplified Chinese translation for the Accessibility (soft) screen-lock option.
+* Version 1.3.2.
