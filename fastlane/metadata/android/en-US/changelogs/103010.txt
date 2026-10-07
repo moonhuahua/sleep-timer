@@ -1,0 +1,2 @@
+* Added Simplified Chinese localization.
+* The Accessibility lock option is presented as "Silent lock" in Chinese and uses Android GLOBAL_ACTION_LOCK_SCREEN, avoiding simulated power-key input.

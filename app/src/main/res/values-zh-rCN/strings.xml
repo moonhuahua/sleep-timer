@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">睡眠定时器</string>
+    <string name="start_timer">开始倒计时</string>
+    <string name="stop_timer">停止倒计时</string>
+    <string name="settings">设置</string>
+    <string name="settings_title">设置</string>
+    <string name="category_sleep_timer">睡眠定时器</string>
+    <string name="playback_title">播放</string>
+    <string name="playback_description">倒计时结束时停止音频和视频播放</string>
+    <string name="fade_out_title">淡出时长</string>
+    <string name="fade_out_seconds">%d 秒</string>
+    <string name="screen_title">关屏</string>
+    <string name="screen_description">倒计时结束时锁定屏幕（Shizuku 可选）</string>
+    <string name="screen_admin_required">需要设备管理员权限</string>
+    <string name="category_haptic">触感反馈</string>
+    <string name="haptic_title">触感反馈</string>
+    <string name="haptic_description">操作计时器和控件时振动</string>
+    <string name="qs_tile_fading_out">正在淡出</string>
+    <string name="device_admin_description">用于在睡眠定时器结束时锁定屏幕。</string>
+    <string name="accessibility_service_label">睡眠定时器静音锁屏</string>
+    <string name="accessibility_service_description">仅用于在倒计时结束时锁定屏幕。睡眠定时器不会读取或监视任何屏幕内容。</string>
+    <string name="widget_description">轻点一次即可启动睡眠定时器。</string>
+    <string name="widget_minutes">%d 分钟</string>
+    <string name="widget_preview_minutes">15 分钟</string>
+    <string name="widget_tap_to_start">轻点开始</string>
+    <string name="widget_tap_to_cancel">轻点取消</string>
+    <string name="widget_fading_out">正在淡出播放</string>
+</resources>

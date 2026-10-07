@@ -1,0 +1,2 @@
+* Vereinfachte chinesische Übersetzung hinzugefügt.
+* Die Bedienungshilfe-Sperre heißt auf Chinesisch „Stille Sperre“ und verwendet Android GLOBAL_ACTION_LOCK_SCREEN statt eines simulierten Ein-/Aus-Tastendrucks.

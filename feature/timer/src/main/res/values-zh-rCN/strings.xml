@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">睡眠定时器</string>
+    <string name="start_timer">开始倒计时</string>
+    <string name="stop_timer">停止倒计时</string>
+    <string name="settings">设置</string>
+    <string name="cd_step_minus">减少时间</string>
+    <string name="cd_step_plus">增加时间</string>
+
+    <string name="time_unit_minute">分钟</string>
+    <string name="time_unit_minutes">分钟</string>
+    <string name="time_unit_hr_min">小时 · 分钟</string>
+    <string name="ends_at_time">结束时间 %1$s</string>
+
+    <string name="settings_title">设置</string>
+    <string name="category_appearance">外观</string>
+    <string name="stars_title">星空背景</string>
+    <string name="stars_description">表盘后方显示缓慢移动的星空</string>
+    <string name="launch_animation_title">启动动画</string>
+    <string name="launch_animation_description">开始倒计时时播放火箭风格按钮动画</string>
+    <string name="stars_unavailable">当前主题不支持</string>
+    <string name="auto_rotate_title">自动旋转</string>
+    <string name="auto_rotate_dialog_title">选择旋转模式</string>
+    <string name="auto_rotate_system_title">跟随系统</string>
+    <string name="auto_rotate_system_description">仅在系统自动旋转开启时旋转</string>
+    <string name="auto_rotate_always_title">始终旋转</string>
+    <string name="auto_rotate_always_description">即使系统锁定旋转，也跟随设备方向旋转</string>
+    <string name="auto_rotate_portrait_title">竖屏</string>
+    <string name="auto_rotate_portrait_description">始终保持竖屏</string>
+    <string name="category_sleep_timer">睡眠定时器</string>
+    <string name="playback_title">播放</string>
+    <string name="playback_description">倒计时结束时停止音频和视频播放</string>
+    <string name="fade_out_title">淡出时长</string>
+    <string name="fade_out_seconds">%d 秒</string>
+    <string name="step_minutes_title">+/− 调整步长</string>
+    <string name="step_minutes_value">%d 分钟</string>
+    <string name="screen_title">关屏</string>
+    <string name="screen_description">倒计时结束时锁定屏幕</string>
+    <string name="widget_config_title">小组件设置</string>
+    <string name="widget_config_description">设置轻点此小组件后启动的倒计时时长。每个小组件可单独配置。</string>
+    <string name="widget_config_save">保存</string>
+    <string name="widget_fixed_duration_title">固定时长</string>
+    <string name="widget_fixed_duration_off">此小组件使用上次设置的时长</string>
+    <string name="widget_fixed_duration_on">此小组件始终使用下面设置的时长</string>
+
+    <string name="category_haptic">触感反馈</string>
+    <string name="haptic_title">触感反馈</string>
+    <string name="haptic_description">操作计时器和控件时振动</string>
+
+    <string name="theme_midnight">午夜</string>
+    <string name="theme_ocean">海洋</string>
+    <string name="theme_ember">余烬</string>
+    <string name="theme_light">明亮</string>
+    <string name="theme_basic">基础</string>
+    <string name="theme_amoled">AMOLED</string>
+
+    <string name="shizuku_dialog_title">需要 Shizuku</string>
+    <string name="shizuku_body_not_installed">尚未安装 Shizuku。轻点下方按钮查看安装和设置方法。</string>
+    <string name="shizuku_body_not_running">已安装 Shizuku，但服务尚未运行。请打开 Shizuku 并启动服务。</string>
+    <string name="shizuku_body_permission">睡眠定时器需要获得 Shizuku 使用权限。</string>
+    <string name="shizuku_body_ready">Shizuku 已就绪。</string>
+    <string name="shizuku_action_install">安装指南</string>
+    <string name="shizuku_action_open">打开 Shizuku</string>
+    <string name="shizuku_action_grant">授予权限</string>
+    <string name="shizuku_action_ok">确定</string>
+    <string name="shizuku_action_cancel">取消</string>
+
+    <string name="shizuku_feature_soft_screen_off">通过 Shizuku 模拟按下电源键关屏，并保留生物识别解锁。</string>
+    <string name="shizuku_feature_wifi">新版 Android 不允许普通应用直接切换 Wi‑Fi，因此倒计时结束后关闭 Wi‑Fi 需要 Shizuku。</string>
+    <string name="shizuku_feature_bluetooth">新版 Android 不允许普通应用直接切换蓝牙，因此倒计时结束后关闭蓝牙需要 Shizuku。</string>
+
+    <string name="shizuku_feature_label_display">关闭屏幕</string>
+    <string name="shizuku_feature_label_wifi">关闭 Wi‑Fi</string>
+    <string name="shizuku_feature_label_bluetooth">关闭蓝牙</string>
+    <string name="shizuku_feature_label_mobile_data">关闭移动数据</string>
+    <string name="shizuku_startup_intro">以下已启用功能缺少 Shizuku 权限：</string>
+
+    <string name="admin_dialog_title">需要设备管理员权限</string>
+    <string name="admin_body_required">缺少设备管理员权限。没有此权限，睡眠定时器无法在倒计时结束时使用设备管理员方式锁屏。</string>
+    <string name="admin_action_grant">授予权限</string>
+    <string name="dialog_action_ignore">忽略</string>
+
+    <string name="wifi_off_title">关闭 Wi‑Fi</string>
+    <string name="wifi_off_description">倒计时结束时关闭 Wi‑Fi（需要 Shizuku）</string>
+    <string name="bluetooth_off_title">关闭蓝牙</string>
+    <string name="bluetooth_off_description">倒计时结束时关闭蓝牙（需要 Shizuku）</string>
+    <string name="mobile_data_off_title">关闭移动数据</string>
+    <string name="mobile_data_off_description">倒计时结束时关闭移动数据（需要 Shizuku）</string>
+    <string name="shizuku_feature_mobile_data">Android 不允许普通应用直接切换移动数据，因此倒计时结束后关闭移动数据需要 Shizuku。</string>
+
+    <string name="screen_method_dialog_title">选择关屏方式</string>
+    <string name="screen_method_hard_title">设备管理员锁屏</string>
+    <string name="screen_method_hard_description">Android 标准锁屏方式；下次解锁可能要求输入密码或 PIN。</string>
+    <string name="screen_method_soft_title">Shizuku 模拟电源键</string>
+    <string name="screen_method_soft_description">通过 Shizuku 模拟按下电源键，保留生物识别解锁。</string>
+    <string name="screen_method_accessibility_title">静音锁屏</string>
+    <string name="screen_method_accessibility_description">通过无障碍服务直接调用系统锁屏，不模拟电源键；通常可避免电源键关屏振动，保留生物识别解锁，无需 Shizuku。</string>
+    <string name="screen_method_active_hard">关屏 - 设备管理员</string>
+    <string name="screen_method_active_soft">关屏 - Shizuku 模拟电源键</string>
+    <string name="screen_method_active_accessibility">关屏 - 静音锁屏</string>
+    <string name="screen_method_hard_revoked">关屏 - 缺少设备管理员权限</string>
+    <string name="screen_method_accessibility_revoked">关屏 - 静音锁屏无障碍服务未启用</string>
+
+    <string name="accessibility_dialog_title">需要启用无障碍服务</string>
+    <string name="accessibility_body_required">要使用“静音锁屏”，请在系统无障碍设置中启用“睡眠定时器静音锁屏”。本应用仅使用该服务执行锁屏，不读取任何屏幕内容。</string>
+    <string name="accessibility_action_open_settings">打开设置</string>
+
+    <string name="category_about">关于</string>
+    <string name="about_title">关于</string>
+    <string name="about_entry_title">关于本应用</string>
+    <string name="about_entry_description">版本、源代码与支持</string>
+    <string name="about_version_title">版本</string>
+    <string name="about_author_title">原作者</string>
+    <string name="about_author_value">Xitee</string>
+    <string name="about_repo_title">源代码</string>
+    <string name="about_repo_value">github.com/moonhuahua/sleep-timer</string>
+    <string name="about_donate_title">捐赠</string>
+    <string name="about_donate_description">如果这个应用对你有帮助，并且你愿意支持原作者，可在这里进行捐赠。</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel_name">睡眠定时器</string>
+    <string name="notification_channel_description">显示睡眠定时器剩余时间</string>
+    <string name="notification_content_title">睡眠定时器</string>
+    <plurals name="notification_minutes_remaining">
+        <item quantity="one">剩余 %d 分钟</item>
+        <item quantity="other">剩余 %d 分钟</item>
+    </plurals>
+    <string name="notification_less_than_minute">剩余不到 1 分钟</string>
+    <string name="notification_fading_out">正在淡出播放</string>
+    <string name="notification_action_add_minutes">+%d 分钟</string>
+    <string name="notification_action_subtract_minutes">-%d 分钟</string>
+    <string name="notification_action_cancel">取消</string>
+</resources>

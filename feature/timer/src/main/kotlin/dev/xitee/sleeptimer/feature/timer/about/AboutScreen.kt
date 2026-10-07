@@ -52,7 +52,7 @@ import dev.xitee.sleeptimer.feature.timer.theme.ProvideAppTheme
 import dev.xitee.sleeptimer.feature.timer.theme.appTheme
 import dev.xitee.sleeptimer.feature.timer.timer.components.TimerBackground
 
-private const val REPO_URL = "https://github.com/Xitee1/sleep-timer"
+private const val REPO_URL = "https://github.com/moonhuahua/sleep-timer"
 private const val DONATE_URL = "https://github.com/Xitee1/Xitee1/blob/main/donate.md"
 
 @Composable
@@ -244,3 +244,5 @@ private fun AboutRow(
     }
 }
 
+
+\n
