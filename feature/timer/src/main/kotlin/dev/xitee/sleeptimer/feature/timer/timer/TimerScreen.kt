@@ -179,7 +179,16 @@ private fun TimerContent(
 
     if (showAccessibilityStartupDialog) {
         AccessibilityRequiredDialog(
-            onOpenSettings = {
+            onOpenAppInfo = {
+                showAccessibilityStartupDialog = false
+                context.startActivity(
+                    Intent(
+                        android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
+                        android.net.Uri.parse("package:${context.packageName}"),
+                    ),
+                )
+            },
+            onOpenAccessibilitySettings = {
                 showAccessibilityStartupDialog = false
                 context.startActivity(
                     Intent(android.provider.Settings.ACTION_ACCESSIBILITY_SETTINGS),
