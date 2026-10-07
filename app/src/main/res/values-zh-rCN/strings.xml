@@ -18,7 +18,7 @@
     <string name="haptic_description">操作计时器和控件时振动</string>
     <string name="qs_tile_fading_out">正在淡出</string>
     <string name="device_admin_description">用于在睡眠定时器结束时锁定屏幕。</string>
-    <string name="accessibility_service_label">睡眠定时器静音锁屏</string>
+    <string name="accessibility_service_label">睡眠定时器屏幕锁定</string>
     <string name="accessibility_service_description">仅用于在倒计时结束时锁定屏幕。睡眠定时器不会读取或监视任何屏幕内容。</string>
     <string name="widget_description">轻点一次即可启动睡眠定时器。</string>
     <string name="widget_minutes">%d 分钟</string>

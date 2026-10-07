@@ -93,16 +93,16 @@
     <string name="screen_method_hard_description">Android 标准锁屏方式；下次解锁可能要求输入密码或 PIN。</string>
     <string name="screen_method_soft_title">Shizuku 模拟电源键</string>
     <string name="screen_method_soft_description">通过 Shizuku 模拟按下电源键，保留生物识别解锁。</string>
-    <string name="screen_method_accessibility_title">静音锁屏</string>
-    <string name="screen_method_accessibility_description">通过无障碍服务直接调用系统锁屏，不模拟电源键；通常可避免电源键关屏振动，保留生物识别解锁，无需 Shizuku。</string>
+    <string name="screen_method_accessibility_title">无障碍（软锁屏）</string>
+    <string name="screen_method_accessibility_description">通过无障碍服务执行锁屏，效果类似按下电源键；保留生物识别解锁，无需 Shizuku。</string>
     <string name="screen_method_active_hard">关屏 - 设备管理员</string>
     <string name="screen_method_active_soft">关屏 - Shizuku 模拟电源键</string>
-    <string name="screen_method_active_accessibility">关屏 - 静音锁屏</string>
+    <string name="screen_method_active_accessibility">关屏 - 无障碍（软锁屏）</string>
     <string name="screen_method_hard_revoked">关屏 - 缺少设备管理员权限</string>
-    <string name="screen_method_accessibility_revoked">关屏 - 静音锁屏无障碍服务未启用</string>
+    <string name="screen_method_accessibility_revoked">关屏 - 无障碍服务未启用</string>
 
     <string name="accessibility_dialog_title">需要启用无障碍服务</string>
-    <string name="accessibility_body_required">要使用“静音锁屏”，请在系统无障碍设置中启用“睡眠定时器静音锁屏”。本应用仅使用该服务执行锁屏，不读取任何屏幕内容。</string>
+    <string name="accessibility_body_required">要使用“无障碍（软锁屏）”，请在系统无障碍设置中启用“睡眠定时器屏幕锁定”。本应用仅使用该服务执行锁屏，不读取任何屏幕内容。</string>
     <string name="accessibility_action_open_settings">打开设置</string>
 
     <string name="category_about">关于</string>
