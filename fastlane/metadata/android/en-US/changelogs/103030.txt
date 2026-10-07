@@ -1,0 +1,2 @@
+* Added Android/ColorOS restricted-settings guidance when the accessibility service is missing from Downloaded apps.
+* Added direct App info and Accessibility settings actions.

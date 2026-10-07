@@ -1,6 +1,5 @@
 package dev.xitee.sleeptimer.feature.timer.settings.components
 
-import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Accessibility
 import androidx.compose.material3.AlertDialog
@@ -13,9 +12,9 @@ import dev.xitee.sleeptimer.feature.timer.R
 
 @Composable
 fun AccessibilityRequiredDialog(
-    onOpenSettings: () -> Unit,
+    onOpenAppInfo: () -> Unit,
+    onOpenAccessibilitySettings: () -> Unit,
     onDismiss: () -> Unit,
-    @StringRes dismissLabelRes: Int = R.string.shizuku_action_cancel,
 ) {
     AlertDialog(
         onDismissRequest = onDismiss,
@@ -23,13 +22,13 @@ fun AccessibilityRequiredDialog(
         title = { Text(stringResource(R.string.accessibility_dialog_title)) },
         text = { Text(stringResource(R.string.accessibility_body_required)) },
         confirmButton = {
-            TextButton(onClick = onOpenSettings) {
-                Text(stringResource(R.string.accessibility_action_open_settings))
+            TextButton(onClick = onOpenAppInfo) {
+                Text(stringResource(R.string.accessibility_action_open_app_info))
             }
         },
         dismissButton = {
-            TextButton(onClick = onDismiss) {
-                Text(stringResource(dismissLabelRes))
+            TextButton(onClick = onOpenAccessibilitySettings) {
+                Text(stringResource(R.string.accessibility_action_open_settings))
             }
         },
     )

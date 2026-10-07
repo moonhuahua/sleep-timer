@@ -1,0 +1,2 @@
+* Anleitung für eingeschränkte Einstellungen hinzugefügt, wenn der Bedienungshilfedienst nicht angezeigt wird.
+* Direkte Schaltflächen für App-Info und Bedienungshilfen hinzugefügt.

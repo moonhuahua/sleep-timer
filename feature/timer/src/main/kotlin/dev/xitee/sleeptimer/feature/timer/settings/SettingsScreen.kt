@@ -3,6 +3,7 @@ package dev.xitee.sleeptimer.feature.timer.settings
 import android.app.Activity
 import android.app.admin.DevicePolicyManager
 import android.content.Intent
+import android.net.Uri
 import android.provider.Settings
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -194,7 +195,16 @@ private fun SettingsContent(
 
     if (showAccessibilityDialog) {
         AccessibilityRequiredDialog(
-            onOpenSettings = {
+            onOpenAppInfo = {
+                showAccessibilityDialog = false
+                context.startActivity(
+                    Intent(
+                        Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
+                        Uri.parse("package:${context.packageName}"),
+                    ),
+                )
+            },
+            onOpenAccessibilitySettings = {
                 // No activity result to wait for — the grant is re-checked on ON_RESUME.
                 pendingAccessibilityEnable = true
                 showAccessibilityDialog = false

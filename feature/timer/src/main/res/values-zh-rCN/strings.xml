@@ -102,8 +102,9 @@
     <string name="screen_method_accessibility_revoked">关屏 - 无障碍服务未启用</string>
 
     <string name="accessibility_dialog_title">需要启用无障碍服务</string>
-    <string name="accessibility_body_required">要使用“无障碍（软锁屏）”，请在系统无障碍设置中启用“睡眠定时器屏幕锁定”。本应用仅使用该服务执行锁屏，不读取任何屏幕内容。</string>
-    <string name="accessibility_action_open_settings">打开设置</string>
+    <string name="accessibility_body_required">如果在“无障碍 > 已下载的应用”中看不到“睡眠定时器屏幕锁定”，请先打开“应用信息”，点右上角菜单并选择“允许受限设置”；然后返回并打开“无障碍设置”启用它。本应用仅使用该服务执行锁屏，不读取任何屏幕内容。</string>
+    <string name="accessibility_action_open_app_info">应用信息</string>
+    <string name="accessibility_action_open_settings">无障碍设置</string>
 
     <string name="category_about">关于</string>
     <string name="about_title">关于</string>

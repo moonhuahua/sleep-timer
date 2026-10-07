@@ -114,8 +114,9 @@
 
     <!-- Accessibility service required dialog -->
     <string name="accessibility_dialog_title">Accessibility service required</string>
-    <string name="accessibility_body_required">To lock the screen this way, enable "SleepTimer screen lock" in the system accessibility settings. SleepTimer only uses it to lock the screen and does not read any screen content.</string>
-    <string name="accessibility_action_open_settings">Open settings</string>
+    <string name="accessibility_body_required">If "SleepTimer screen lock" is missing under Accessibility > Downloaded apps, first open App info, use the top-right menu, and choose "Allow restricted settings". Then return and open Accessibility settings to enable it. SleepTimer only uses this service to lock the screen and does not read screen content.</string>
+    <string name="accessibility_action_open_app_info">App info</string>
+    <string name="accessibility_action_open_settings">Accessibility settings</string>
 
     <!-- About -->
     <string name="category_about">About</string>
