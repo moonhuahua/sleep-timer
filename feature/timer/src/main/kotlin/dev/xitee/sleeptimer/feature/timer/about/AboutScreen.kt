@@ -243,6 +243,3 @@ private fun AboutRow(
         }
     }
 }
-
-
-\n
